@@ -1,0 +1,32 @@
+.img{
+    width: 600px;
+    height: 800px;
+}
+.pink-background {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+}
+
+.right_paragraph{
+    margin-right: 30px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.left_paragraph{
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+#left_heading{
+    margin-left: 20px;
+}
+
+#left_button{
+    margin-left: 20px;
+    font-size: 20px;
+}

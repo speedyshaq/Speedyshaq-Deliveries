@@ -1,0 +1,184 @@
+.navbar {
+width: 100%;
+height: 100px;
+background-color: #121619;
+display: flex;
+flex-direction: row;
+}
+
+.trademark {
+  font-size: 1.5rem;        /* Nice readable size */
+  font-weight: 600;         /* Semi-bold for emphasis */
+  color: #09ceec;           /* A stylish pink, can be changed */
+  font-family: 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.links{
+    height: 50%;
+    padding: 15px;
+    background-color: rgb(18, 84, 183);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.navbar .leftSide {
+flex: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+padding-left: 150px;
+}
+
+.navbar .leftSide img {
+width: 100px;
+}
+
+.navbar .rightSide {
+flex: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.navbar .center {
+flex: 50%;
+height: 100%;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+margin: 20px;
+}
+
+.navbar .rightSide button {
+background-color: transparent;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+.navbar .center button {
+background-color: transparent;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+.navbar .rightSide svg {
+font-size: 40px;
+}
+
+.navbar .center svg {
+font-size: 40px;
+}
+
+.navbar #open {
+padding-left: 0px;
+}
+.navbar #open img {
+display: none;
+}
+
+.navbar #close img {
+display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+display: inherit;
+margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+display: none;
+}
+
+.navbar #open a {
+width: 70px;
+margin: 5px;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+@media only screen and (max-width: 900px) {
+.navbar .rightSide a {
+    width: 70px;
+}
+
+
+.navbar .leftSide {
+    padding-left: 50px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.navbar .rightSide a {
+    display: none;
+}
+
+.navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.navbar .rightSide button {
+    display: inherit;
+}
+}
+
+@media only screen and (min-width: 600px) {
+.navbar .rightSide button {
+    display: none;
+}
+
+.hiddenLinks {
+    display: none;
+}
+}

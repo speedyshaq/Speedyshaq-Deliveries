@@ -1,0 +1,45 @@
+/* App.css */
+.gradient-background {
+    background: linear-gradient(to right, #f7971e, #ffd200); /* orange gradient */
+}
+
+.purple-button {
+background-color: #6a0dad; /* purple */
+color: white;
+padding: 12px 24px;
+border: none;
+border-radius: 8px;
+font-size: 20px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+margin-top: 20px;
+}
+
+.purple-button:hover {
+background-color: #8a2be2; /* lighter purple on hover */
+}
+
+.right_paragraph{
+    margin-right: 30px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.grocery_paragraph{
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+#grocery_button{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#grocery_heading{
+    margin-left: 20px;
+}
