@@ -61,7 +61,7 @@ function SignIn() {
 
     return (
         <div className="container">
-          <form className="login-form">
+          <form className="login-form" onSubmit={submit}>
             <h2>Sign In</h2>
             <div className="input-group">
               {/* email */}
@@ -94,14 +94,8 @@ function SignIn() {
 
             </div>
             <div className="options">
-              <label>
-                <input
-                  type="checkbox"
-                  name="remember"
-                  
-                /> Remember Me
-              </label>
-              <a href="#">Forgot Password?</a>
+              
+              
             </div>
             <button type="submit" className='signinbtn'>Sign In</button>
           </form>

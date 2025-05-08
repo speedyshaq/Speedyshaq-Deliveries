@@ -30,8 +30,8 @@ function Navbar() {
             <div className="dropdown-content">
               <Link to="/addmedicine">Add Meds</Link>
               <Link to="/addfood">Add Food</Link>
-              <Link to="/addmens">Add Mens</Link>
-              <Link to="/addwomens">Add Womens</Link>
+              <Link to="/addmens">Add MensWare</Link>
+              <Link to="/addwomens">Add WomensWare</Link>
               <Link to="/addshoes">Add Shoes</Link>
               <Link to="/addgroceries">Add Groceries</Link>
               <Link to="/addbeverages">Add Beverages</Link>

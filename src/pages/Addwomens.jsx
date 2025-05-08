@@ -47,18 +47,18 @@ const AddWomens = () => {
           {loading}
           {message}
           {error}
-          <h2 className='text-info'>Add A Womens</h2>
+          <h2 className='text-info'>Add WomenWare</h2>
           <input
             type="text"
             className="form-control"
-            placeholder="Enter the Womens Name"
+            placeholder="Enter the WomensWare.."
             value={womens_name}
             onChange={(e) => setWomensName(e.target.value)}
           />
           <br />
 
           <textarea
-            placeholder="Enter some Description of the Womens..."
+            placeholder="Enter some Description of the WomensWare..."
             className="form-control"
             value={womens_description}
             onChange={(e) => setWomensDescription(e.target.value)}
@@ -67,7 +67,7 @@ const AddWomens = () => {
 
           <input
             type="number"
-            placeholder="Enter the price of the womens"
+            placeholder="Enter the price of the WomensWare"
             className="form-control"
             onChange={(e) => setWomensCost(e.target.value)}
             value={womens_cost}
@@ -83,7 +83,7 @@ const AddWomens = () => {
           <br />
 
           <button type="submit" className="btn btn-primary w-100">
-            Add Womens
+            Add WomensWare
           </button>
         </form>
       </div>

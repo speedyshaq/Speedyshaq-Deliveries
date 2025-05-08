@@ -179,7 +179,7 @@ const styles = {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      height: '100vh', // full viewport height
+      height: '50vh', // full viewport height
       backgroundColor: '#f0f0f0',
     },
     chatbotWrapper: {
