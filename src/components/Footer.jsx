@@ -25,17 +25,20 @@ const Footer = () => {
 
     try {
       const response = await axios.post(
-        "https://ishaqibrahim.pythonanywhere.com/api/addgrocery",
+        "https://ishaqibrahim.pythonanywhere.com/api/reachout",
         data
       );
       setLoading("");
       setMessageState(response.data.Message);
+      setMessageState("");
+
+      
 
       setEmail("");
       setMessage("");
 
     } catch (error) {
-      setError("Failed to add product. Please try again.");
+      setError("Failed to send message. Please try again.");
     }
   }
 
